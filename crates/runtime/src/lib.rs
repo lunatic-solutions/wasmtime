@@ -28,11 +28,11 @@ mod jit_int;
 mod memory;
 mod mmap;
 mod table;
-mod traphandlers;
 mod vmcontext;
 
 pub mod debug_builtins;
 pub mod libcalls;
+pub mod traphandlers;
 
 pub use crate::export::*;
 pub use crate::externref::*;
